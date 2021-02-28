@@ -1,0 +1,70 @@
+@import url("https://use.typekit.net/ubw6rlt.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2371a5;
+    font-family: good-times, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result {
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+    max-width: 600px;
+    border-left: 1px solid #fff;
+    border border-radius: 10rem;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0)
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
